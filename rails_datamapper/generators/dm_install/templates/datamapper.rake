@@ -2,12 +2,12 @@ namespace :db do
   
   desc "Perform automigration"
   task :automigrate => :environment do
-    ::DataMapper::AutoMigrator.auto_migrate
+    ::DataMapper::AutoMigrator.auto_migrate!
   end
   
   desc "Perform non destructive automigration"
   task :autoupgrade => :environment do
-    ::DataMapper::AutoMigrator.auto_upgrade
+    ::DataMapper::AutoMigrator.auto_upgrade!
   end
  
   namespace :migrate do
