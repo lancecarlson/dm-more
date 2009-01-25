@@ -16,3 +16,5 @@ generators/rspec_dm_model/templates/model.rb
 generators/rspec_dm_model/templates/model_spec.rb
 generators/dm_install/dm_install_generator.rb
 generators/dm_install/templates/datamapper.rake
+generators/dm_migration/dm_migration_generator.rb
+generators/dm_migration/templates/migration.rb
